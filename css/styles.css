@@ -1,0 +1,147 @@
+/* Margin & Padding */
+
+h1 {
+	color: #208787;
+	font-family: 'Abel', sans-serif;
+	margin: 1px auto;
+	padding: 1px auto;
+	font-size: 2em;
+}
+
+h2 {
+	color: #8c2323;
+	font-family: 'Abel', sans-serif;
+	margin: 1px auto;
+	padding: 1px auto;
+	font-size: 1.5em;
+
+}
+
+h3 {
+	color: grey;
+	font-family: 'Ubuntu', sans-serif;
+	margin: 1px auto;
+	padding: 1px auto;
+	font-size: 1em;
+}
+
+p, em {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+}
+
+
+
+
+.container {
+	margin: 0;
+	padding: 25px;
+	}
+
+
+/* Layout*/
+section {
+	margin: 25px;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	float: left;
+	margin: 0 5px;
+	height: 50px;
+	width: 50px;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+
+/* Patterns */
+
+.pattern-1 {
+	background-image: url("../img/concrete.png");
+	background-repeat: no-repeat;
+}
+
+.pattern-2 {
+	background-image: url("../img/seamless.png");
+	background-repeat: no-repeat;
+}
+
+.pattern-3 {
+	background-image: url("../img/symphony.png");
+	background-repeat: no-repeat;
+}
+
+
+ /* Colors */
+.color-1 {
+	background: grey;
+}
+
+.color-2 {
+	background: #208787;
+}
+
+.color-3 {
+	background: #8c2323;
+}
+
+.imagery-1 {
+	background-image: url("../img/collage.jpg");
+	background-size: 80px;
+	background-repeat: no-repeat;
+}
+
+.imagery-2 {
+	background-image: url("../img/2.jpg");
+	background-size: 77px;
+	background-repeat: no-repeat;
+}
+
+.imagery-3 {
+	background-image: url("../img/ice.jpg");
+	background-size: 100px;
+	background-repeat: no-repeat;
+}
+
+/* Link */
+
+a:link {
+	color: #208787;
+	text-decoration: none;
+	text-transform: smallcaps;
+	font-family: 'Ubuntu', sans-serif;	
+	
+}
+
+a:visited {
+	color: #8c2323;
+}
+
+a:hover {
+	-webkit-animation: callout .25s both;
+	color: #8c2323;
+}
+
+
+/*KeyFrames*/
+
+@-webkit-keyframes callout {
+  0% { font-size: .75em; }
+  100% { font-size: 1.5em }
+}
+
+
+
+
+
